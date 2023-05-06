@@ -1,13 +1,20 @@
 ---
-description: Logic Sheet is the all-in-one data processing tool for Google Sheets
+description: Logic Sheet is the best automation solution for Google Sheets. Start using Logic Sheet as the center of your workflow automation.
 ---
 
 # Home
 
-Get Logic Sheet from [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/logic\_sheet/796322869198).
+Get Logic Sheet from [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/logic_sheet_automate_your_spreadsheets/796322869198).
 
-Use Logic Sheet to automate your Google Sheets tasks. 
+Use Logic Sheet to automate your Google Sheets tasks.
 
-Logic Sheet lets you automate your spreadsheets with action rules, which allow you to send notifications when editing or form submissions occur or at designated times.
+You can use Logic Sheet to set up automated workflows in Google Sheet that run when
 
-With Logic Sheet, you can set up triggers that initiate specific actions upon certain events, such as when a cell is edited or a form is submitted, or at a predetermined time.&#x20;
+-   At a specific time
+-   Every hour, day, week, or month
+-   When the spreadsheet is edited
+-   When a Google Form is received
+-   When you receive a webhook response
+-   When a new row is inserted
+
+To set up an automation with Logic Sheet, you need to choose a **trigger**, set **conditions** on which the automation will run, and choose at least one **action** to run when the automation is triggered.

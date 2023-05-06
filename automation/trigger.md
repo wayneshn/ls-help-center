@@ -1,14 +1,21 @@
 ---
-description: The event that triggers the automation to start.
+description: The trigger is an event that fires the automation.
 ---
 
 # Trigger
 
-In Logic Sheet, you can set up triggers to initiate automation workflows based on specific events or times. There are three types of triggers to choose from: Time driven, On edit, On form submission, and on webhook calls.
+In Logic Sheet, you can set up triggers to initiate automation workflows based on specific events or times. Currently, we support the following triggers:
+
+-   At a specific time
+-   Every hour, day, week, or month
+-   When the spreadsheet is edited
+-   When a Google Form is received
+-   When you receive a webhook response
+-   When a new row is inserted
 
 ### Choose a trigger type
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/img/trigger-types.png" alt=""><figcaption></figcaption></figure>
 
 **On edit triggers** include "Spreadsheet is edited", "A new row is inserted", and "A new column is inserted".&#x20;
 
