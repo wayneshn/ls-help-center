@@ -17,22 +17,20 @@ In Logic Sheet, you can set up triggers to initiate automation workflows based o
 
 <figure><img src="../.gitbook/img/trigger-types.png" alt=""><figcaption></figcaption></figure>
 
-**On edit triggers** include "Spreadsheet is edited", "A new row is inserted", and "A new column is inserted".&#x20;
+**Time-driven trigger** runs at a specified time. It can run once or run recursively, like every hour, every day, every week, or every month.
 
-**The form submission trigger** will run when your spreadsheet has received a form submission. This trigger will only work when you have connected a Google Form with a spreadsheet.&#x20;
+The **Spreadsheet is edited** trigger runs when a spreadsheet is manually edited.
 
-**A webhook response is received:** Run when the spreadsheet has received a webhook response. To use this trigger, you need to set up a [webhook](add-connections/webhook.md).
+A **Webhook** trigger runs when you have set up a [webhook](./add-connections//webhook.md) using Logic Sheet and a webhook response is received.
+
+A **form response received** trigger runs when you have connected your spreadsheet with a Google From and a form response is received.
 
 {% hint style="warning" %}
-Currently, you can only set up one automation with each one of the above-mentioned three types of triggers. For example, if you have created a "Spreadsheet is edited" trigger, which is a type of "On edit trigger" in one spreadsheet, you cannot create another on edit trigger, such as "A new row is inserted," in the same spreadsheet.
-
-A possible solution to this limit is our [Conditional action](actions/conditional-actions.md) feature.&#x20;
-{% endhint %}
-
-{% hint style="info" %}
-Please refer to the above hint box if you see the following error message:
+Currently, you can only set up one automation with each one of the above-mentioned three types of triggers. For example, if you have created a "Spreadsheet is edited" trigger, which is a type of "On edit trigger" in one spreadsheet, you cannot create another on edit trigger. You may see the following error message if you create more than one triggers with the same type.
 
 _`An error happened. Error message: Exception: This add-on has created too many time-based triggers in this document for this Google user account.`_
+
+A possible solution to this limit is our [Conditional action](actions/conditional-actions.md) feature.&#x20;
 {% endhint %}
 
 ### Sheet
