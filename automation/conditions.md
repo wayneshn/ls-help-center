@@ -6,6 +6,8 @@ description: Decide whether a workflow should run when it is triggered.
 
 This is an optional step that lets you set up a set of conditions to decide whether a workflow should be executed. You can use conditions to fine-control an automated workflow, for example, only run the automation when range A5 is larger than 100.
 
+Conditions are optional. You can skip this step by not adding any conditions in this step. Remember to remove all added conditions if you don't intend to use any conditions.
+
 <figure><img src="../.gitbook/img/condition-merge-tag.png" alt=""><figcaption></figcaption></figure>
 
 Once you have added one condition, you will see an option that lets you choose "When all/any of the conditions are/is met." If you choose "all," the automation will only run if all of the conditions you have set are met. If you choose "any," the automation will run if at least one of the conditions you have set is met.
