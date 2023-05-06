@@ -20,10 +20,10 @@ The Condition dropdown menu here refers to the operator of the comparison you wa
 
 -   is equal to
 -   is not equal to
--   is greater than
--   is greater than or equal to
--   is less than
--   is less than or equal to
+-   is greater than (numbers)
+-   is greater than or equal to (numbers)
+-   is less than (numbers)
+-   is less than or equal to (numbers)
 -   contains
 -   does not contain
 -   is empty
@@ -33,24 +33,7 @@ The Condition dropdown menu here refers to the operator of the comparison you wa
 
 The value to compare to. The following configuration will let the automation run only when cell A1 is greater than 100.
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="success" %}
-
-#### Merge tag available
-
-You can use the following merge tags in the Value field here. See [how merge tags work](merge-tags.md).
-
--   \{{range A1\}}: The value of cell A1, or other cells of your choice.
--   \{{old value\}}: The value of the cell prior to editing.
--   \{{new value\}}: The new value of the cell after being edited.
--   \{{editor\}}: The email address of the user who made the edit.
--   \{{edited range\}}: The notation (string) of the cell being edited.
-    {% endhint %}
-
-{% hint style="success" %}
-You can add or remove conditions by clicking on the "Add a condition" button or the close sign of each condition.
-{% endhint %}
+<figure><img src="../.gitbook/img/condition-merge-tag.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Heads up (if you used Logic Sheet before January 2023)!** We have improved the condition form. Now, you can compare two values directly instead of comparing the cell value to a specific value as before. To check if the value in cell A3 is equal to 10, simply enter \{{Range A3\}} in the first input and 10 in the "This value" input. In the edit trigger, to check if the edited range meets certain conditions, use the \{{New value\}} merge tag instead of the \{{edited range\}} tag.
