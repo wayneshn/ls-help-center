@@ -1,7 +1,7 @@
 ---
 description: >-
-  This feature allows you to add conditions to each of the actions you set, so
-  that the actions will only run when the conditions are met.
+    This feature allows you to add conditions to each of the actions you set, so
+    that the actions will only run when the conditions are met.
 ---
 
 # Conditional actions
@@ -14,13 +14,13 @@ Conditions are optional. If you don't set any conditions in action, the action w
 
 In each action, you can choose to add a set of conditions.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/img/action-condition.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Heads up (if you used Logic Sheet before January 2023)!** We have improved the condition form. Now, you can compare two values directly instead of comparing the cell value to a specific value as before. To check if the value in cell A3 is equal to 10, simply enter \{{Range A3\}} in the first input and 10 in the "This value" input. In the edit trigger, to check if the edited range meets certain conditions, use the \{{New value\}} merge tag instead of the \{{edited range\}} tag.
 {% endhint %}
 
-You can choose multiple action conditions. If you do so, remember to choose whether you want the action to run when "all" of the conditions are met or when "any" of the conditions are met.
+You can choose multiple action conditions. If you do so, remember to choose whether you want the action to run when "all" of the conditions are met or when at least one of the conditions is met.
 
 {% hint style="info" %}
 This feature is useful when you want to set up multiple triggers with the same trigger type in the same spreadsheet. Remember, you cannot set up more than one same trigger type in one spreadsheet. With this feature, you can set up one trigger and run different actions based on different conditions.
