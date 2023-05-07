@@ -8,15 +8,15 @@ In order to use this automation action, you will also have to [connect your Goog
 
 To use the update Airtable action, you first need to make a new automation by clicking on the _New automation_ button in your Logic Sheet sidebar. In this tutorial, I will simply use the “_Spreadsheet is edited_” trigger and choose to not set any conditions.
 
-In the action step, choose the “_Create new Airtable record_” action. Please note that if you haven’t connected your Airtable account, this option will not be available.
+In the action step, choose the “_Update Airtable_” action. Please note that if you haven’t connected your Airtable account, you will be asked to connect your Airtable account. Click the Connect button to proceed.
 
-Now let's do the same thing by copying the table link and pasting it into the Airtable table link input.
+![Airtable Google Sheets integration automation](../../.gitbook/img/airtable-connection/no-connection-airtable.png)
 
-![Airtable Google Sheets integration automation](https://static.logicsheet.co/img/site/airtable-intro/airtable-action-0.png)
+After you have connected to your Airtable account in the prompt window, you will be able to set up the Airtable action.
 
-Now that we have the link, we need to click on the _Fetch fields_ button to fetch all the fields (think of column names in sheets) from Airtable.
+The first thing you need to do is open the Airtable base and table that you want to update and copy the Airtable URL from your browser. Then you can paste the URL in Logic Sheet and fetch the fields. Once you paste the URL, Logic Sheet will automatically fetch all the fields from Airtable.
 
-![](https://static.logicsheet.co/img/site/airtable-intro/airtable-action-2.png)
+![Airtable Google Sheets integration automation](../../.gitbook/img/airtable-connection/fetch-fields.png)
 
 Now let’s fill the fields in with some data. You can of course use static data, but chances are that you want to use dynamic data in your Google Sheets in these fields. In this example, I will just try to pass the value that I edited and the range of the edited cell to Airtable using merge tags.&#x20;
 
@@ -24,11 +24,11 @@ Merge tags are values that are wrapped in double curly braces that Logic Sheet u
 
 So the configuration will be like
 
-![Airtable Google Sheets automation connection](https://static.logicsheet.co/img/site/airtable-intro/airtable-action-3.png)
+![Airtable Google Sheets integration automation](../../.gitbook/img/airtable-connection/example-value.png)
 
 Now let’s preview and save the new automation. Once it’s saved, let’s make a new edit at cell A1.
 
-![Airtable Google Sheets](https://static.logicsheet.co/img/site/airtable-intro/airtable-action-4.png)
+![Airtable Google Sheets integration automation](../../.gitbook/img/airtable-connection/cella1-edited.png)
 
 And let’s check the Airtable to see if the new record has been added. And yes, it has been appended to the last row.
 
