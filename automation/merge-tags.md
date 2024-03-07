@@ -153,3 +153,20 @@ In the above example, we are using a Google Form to receive feature requests. Wh
 &#x20;In the following example, if the automation was triggered by an edit in range B3, \{{triggering row C value\}} will be the value of range C3, or 1396. \{{triggering row C\}} will return the range name of C3.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+**\{{current date\}}**
+
+This merge tag will return the date at the time when the automation runs. The format is dd/mm/yyyy, like 7/3/2024.
+
+**\{{current year\}}**
+
+This merge tag will return the year at the time when the automation runs. The format is yyyy, like 2024.
+
+**\{{current month\}}**
+
+This merge tag will return the month at the time when the automation runs. The format is the fill name of the month, like January, or August.
+
+**\{{current weekday\}}**
+
+This merge tag will return the weekday (day of the week) at the time when the automation runs. The format is the fill name of the weekday, like Monday, or Sunday.
+

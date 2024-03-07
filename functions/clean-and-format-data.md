@@ -54,7 +54,7 @@ This function will transform a pivot table into raw data. Read more [here](https
 
 **Data range:** Select the data range. A range represents a single cell or a group of adjacent cells in your spreadsheet. For example, A1:D10 is shown below.
 
-![Data range example in Google Spreadsheets](<../.gitbook/assets/image (71).png>)
+![Data range example in Google Spreadsheets](<../.gitbook/assets/image (4) (4).png>)
 
 ### Unix time converter
 
