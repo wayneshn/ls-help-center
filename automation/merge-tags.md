@@ -72,6 +72,12 @@ The name of the sheet that was edited or set in the trigger step.
 
 <figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption><p>The merge tag {{sheet}} in this example returns the worksheet name "Product".</p></figcaption></figure>
 
+#### \{{Sheet2!A1:B5\}}
+
+This merge tag will get the data in any range of the spreadsheet and combine them to a test separated by commas. You can use any combination of sheet names of ranges in your spreadsheet. The sheet name and the range are separated by ! in this merge tag. For example, the merge tag \{{Sheet5!B2:C6\}} will return the values combined in the range B2:C6 in the sheet Sheet 5.
+
+This merge tag is especially useful when you want to check if a range contains a certain value in the conditions.
+
 #### **\{{automation name\}}**
 
 The name of the automation workflow you have set.
