@@ -170,9 +170,9 @@ This merge tag will return the year at the time when the automation runs. The fo
 
 **\{{current month\}}**
 
-This merge tag will return the month at the time when the automation runs. The format is the fill name of the month, like January, or August.
+This merge tag will return the month at the time when the automation runs. The format is the full name of the month, like January, or August.
 
 **\{{current weekday\}}**
 
-This merge tag will return the weekday (day of the week) at the time when the automation runs. The format is the fill name of the weekday, like Monday, or Sunday.
+This merge tag will return the weekday (day of the week) at the time when the automation runs. The format is the full name of the weekday, like Monday, or Sunday.
 
