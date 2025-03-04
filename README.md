@@ -8,7 +8,7 @@ Get Logic Sheet from [Google Workspace Marketplace](https://workspace.google.com
 
 Use Logic Sheet to automate your Google Sheets tasks.
 
-You can use Logic Sheet to set up automated workflows in Google Sheet that run when
+You can use Logic Sheet to set up automated workflows in Google Sheet that run when:
 
 -   At a specific time
 -   Every hour, day, week, or month
