@@ -36,3 +36,7 @@
 ## Appendix <a href="#attachment" id="attachment"></a>
 
 * [Supported currencies](attachment/supported-currencies.md)
+
+## Additions
+
+* [Page 1](additions/page-1.md)
